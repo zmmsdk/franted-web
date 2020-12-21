@@ -40,7 +40,7 @@ pipeline {
                    
 
                 sh 'npm install'
-                sh 'npm run build:development'
+                sh 'npm run build'
                }
             }
         }   
